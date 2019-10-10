@@ -7,6 +7,7 @@ Ref: https://gist.github.com/bmaupin/c87ac42ecbbfcff4ad0d
 
 ## Requirements
 
+- VirtualBox
 - Vagrant
 - vagrant-vbguest
 
@@ -25,6 +26,20 @@ $ vagrant ssh
 (vagrant)$ cd /vagrant  # <= shared with host.
 
 (vagrant)$ levelator foo.aif foo.output.aif
+```
+
+### keep vm after setup
+
+suspend
+
+```
+$ vagrant halt
+```
+
+resume
+
+```
+$ vagrant up
 ```
 
 
